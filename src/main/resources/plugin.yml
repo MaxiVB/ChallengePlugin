@@ -1,0 +1,19 @@
+name: Challenge-Plugin
+description: $description
+version: '${version}'
+
+main: me.maxivb.challengePlugin.ChallengePlugin
+api-version: '1.21.10'
+load: POSTWORLD
+
+authors: [ MaxiVB ]
+
+commands:
+  challenge:
+    description: Main Challenge command system
+    usage: /challenge
+    permission:
+      challenge.admin:
+        description: Allows to do Admin Stuff
+        default: op
+    permission-message: §cDu hast keine Rechte dafür!

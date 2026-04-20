@@ -1,0 +1,25 @@
+ // ================= Important =================
+
+  Some Commands like /challenge delete or /challenge reset
+  need to have the permisson "challenge.admin" or /op
+
+  // ================= START / STOP =================
+
+  /challenge All_Achievements start | stop
+
+  // ================= TEAM =================
+
+  /challenge team create <teamname>
+  /challenge team invite <player>
+  /challenge team join
+  /challenge team leave
+  /challenge team kick <player>
+  /challenge team list
+  /challenge team info
+  /challenge team delete
+  /challenge team delete confirm
+
+  // ================= RESET =================
+
+  /challenge reset
+  /challenge reset confirm
